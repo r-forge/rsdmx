@@ -1,0 +1,10 @@
+Package: RSDMX
+Type: Package
+Title: Package to import SDMX data
+Version: 0.01
+Date: 2011-04-19
+Author: Matthieu Stigler and Emmanuel Blondel
+Maintainer: Matthieu.Stigler <Matthieu.Stigler@fao.org>
+Description: This package will try to 
+License: GPL (>= 2)
+Depends: XML, methods

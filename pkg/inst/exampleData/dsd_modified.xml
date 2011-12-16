@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message:Structure xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:genericmetadata="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata" xmlns:message="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:utility="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/utility" xmlns:query="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query" xmlns:metadatareport="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/metadatareport" xmlns:registry="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/registry" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://sdmx.org/docs/2_0/SDMXMessage.xsd">
+    <message:Header>
+        <message:ID>REGISTRY_RESPONSE</message:ID>
+        <message:Test>false</message:Test>
+        <message:Prepared>2011-05-05T19:51:36</message:Prepared>
+        <message:Sender id="FAO"/>
+    </message:Header>
+    <message:CodeLists>
+        <structure:CodeList id="CL_FAO_MAJOR_AREA" agencyID="FAO" version="0.1" isFinal="false">
+            <structure:Name xml:lang="en">CL_FAO_MAJOR_AREA</structure:Name>
+            <structure:Code value="01">
+                <structure:Description xml:lang="en">Africa - Inland waters</structure:Description>
+                <structure:Description xml:lang="fr">Afrique - Eaux continentales</structure:Description>
+                <structure:Description xml:lang="es">África - Aguas continentales</structure:Description>
+            </structure:Code>
+            <structure:Code value="02">
+                <structure:Description xml:lang="en">America, North - Inland waters</structure:Description>
+                <structure:Description xml:lang="fr">Amérique du Nord - Eaux continentales</structure:Description>
+                <structure:Description xml:lang="es">América del Norte - Aguas continentales</structure:Description>
+            </structure:Code>
+            <structure:Code value="03">
+                <structure:Description xml:lang="en">America, South - Inland waters</structure:Description>
+                <structure:Description xml:lang="fr">Amérique du Sud - Eaux continentales</structure:Description>
+                <structure:Description xml:lang="es">América del Sur - Aguas continentales</structure:Description>
+            </structure:Code>
+            <structure:Code value="04">
+                <structure:Description xml:lang="en">Asia - Inland waters</structure:Description>
+                <structure:Description xml:lang="fr">Asie - Eaux continentales</structure:Description>
+                <structure:Description xml:lang="es">Asia - Aguas continentales</structure:Description>
+            </structure:Code>
+            <structure:Code value="05">
+                <structure:Description xml:lang="en">Europe - Inland waters</structure:Description>
+                <structure:Description xml:lang="fr">Europe - Eaux continentales</structure:Description>
+                <structure:Description xml:lang="es">Europa - Aguas continentales</structure:Description>
+            </structure:Code>
+            <structure:Code value="06">
+                <structure:Description xml:lang="en">Oceania - Inland waters</structure:Description>
+                <structure:Description xml:lang="fr">Océanie - Eaux continentales</structure:Description>
+                <structure:Description xml:lang="es">Oceanía - Aguas continentales</structure:Description>
+            </structure:Code>
+            <structure:Code value="07">
+                <structure:Description xml:lang="en">Former USSR area - Inland waters</structure:Description>
+                <structure:Description xml:lang="fr">Zone de l'ex-URSS - Eaux continentales</structure:Description>
+                <structure:Description xml:lang="es">Área de la ex URSS - Aguas continentales</structure:Description>
+            </structure:Code>
+            <structure:Code value="18">
+                <structure:Description xml:lang="en">Arctic Sea</structure:Description>
+                <structure:Description xml:lang="fr">Mer Arctique</structure:Description>
+                <structure:Description xml:lang="es">Mar Ártico</structure:Description>
+            </structure:Code>
+            <structure:Code value="21">
+                <structure:Description xml:lang="en">Atlantic, Northwest</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-ouest</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, noroeste</structure:Description>
+            </structure:Code>
+            <structure:Code value="27">
+                <structure:Description xml:lang="en">Atlantic, Northeast</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste</structure:Description>
+            </structure:Code>
+            <structure:Code value="31">
+                <structure:Description xml:lang="en">Atlantic, Western Central</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, centre-ouest</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, centro-occidental</structure:Description>
+            </structure:Code>
+            <structure:Code value="34">
+                <structure:Description xml:lang="en">Atlantic, Eastern Central</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, centre-est</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, centro-oriental</structure:Description>
+            </structure:Code>
+            <structure:Code value="37">
+                <structure:Description xml:lang="en">Mediterranean and Black Sea</structure:Description>
+                <structure:Description xml:lang="fr">Méditerranée et mer Noire</structure:Description>
+                <structure:Description xml:lang="es">Mediterráneo y Mar Negro</structure:Description>
+            </structure:Code>
+            <structure:Code value="41">
+                <structure:Description xml:lang="en">Atlantic, Southwest</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, sud-ouest</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, sudoccidental</structure:Description>
+            </structure:Code>
+            <structure:Code value="47">
+                <structure:Description xml:lang="en">Atlantic, Southeast</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, sud-est</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, sudoriental</structure:Description>
+            </structure:Code>
+            <structure:Code value="48">
+                <structure:Description xml:lang="en">Atlantic, Antarctic</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, Antarctique</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, Antártico</structure:Description>
+            </structure:Code>
+            <structure:Code value="51">
+                <structure:Description xml:lang="en">Indian Ocean, Western</structure:Description>
+                <structure:Description xml:lang="fr">Océan Indien, ouest</structure:Description>
+                <structure:Description xml:lang="es">Océano Índico, occidental</structure:Description>
+            </structure:Code>
+            <structure:Code value="57">
+                <structure:Description xml:lang="en">Indian Ocean, Eastern</structure:Description>
+                <structure:Description xml:lang="fr">Océan Indien, est</structure:Description>
+                <structure:Description xml:lang="es">Océano Índico, oriental</structure:Description>
+            </structure:Code>
+            <structure:Code value="58">
+                <structure:Description xml:lang="en">Indian Ocean, Antarctic</structure:Description>
+                <structure:Description xml:lang="fr">Océan Indien, Antarctique</structure:Description>
+                <structure:Description xml:lang="es">Océano Índico, Antártico</structure:Description>
+            </structure:Code>
+            <structure:Code value="61">
+                <structure:Description xml:lang="en">Pacific, Northwest</structure:Description>
+                <structure:Description xml:lang="fr">Pacifique, nord-ouest</structure:Description>
+                <structure:Description xml:lang="es">Pacífico, noroeste</structure:Description>
+            </structure:Code>
+            <structure:Code value="67">
+                <structure:Description xml:lang="en">Pacific, Northeast</structure:Description>
+                <structure:Description xml:lang="fr">Pacifique, nord-est</structure:Description>
+                <structure:Description xml:lang="es">Pacífico, nordeste</structure:Description>
+            </structure:Code>
+            <structure:Code value="71">
+                <structure:Description xml:lang="en">Pacific, Western Central</structure:Description>
+                <structure:Description xml:lang="fr">Pacifique, centre-ouest</structure:Description>
+                <structure:Description xml:lang="es">Pacífico, centro-occidental</structure:Description>
+            </structure:Code>
+            <structure:Code value="77">
+                <structure:Description xml:lang="en">Pacific, Eastern Central</structure:Description>
+                <structure:Description xml:lang="fr">Pacifique, centre-est</structure:Description>
+                <structure:Description xml:lang="es">Pacífico, centro-oriental</structure:Description>
+            </structure:Code>
+            <structure:Code value="81">
+                <structure:Description xml:lang="en">Pacific, Southwest</structure:Description>
+                <structure:Description xml:lang="fr">Pacifique, sud-ouest</structure:Description>
+                <structure:Description xml:lang="es">Pacífico, sudoccidental</structure:Description>
+            </structure:Code>
+            <structure:Code value="87">
+                <structure:Description xml:lang="en">Pacific, Southeast</structure:Description>
+                <structure:Description xml:lang="fr">Pacifique, sud-est</structure:Description>
+                <structure:Description xml:lang="es">Pacífico, sudoriental</structure:Description>
+            </structure:Code>
+            <structure:Code value="88">
+                <structure:Description xml:lang="en">Pacific, Antarctic</structure:Description>
+                <structure:Description xml:lang="fr">Pacifique, Antarctique</structure:Description>
+                <structure:Description xml:lang="es">Pacífico, Antártico</structure:Description>
+            </structure:Code>
+            <structure:Code value="98">
+                <structure:Description xml:lang="en">Antarctic areas nei</structure:Description>
+                <structure:Description xml:lang="fr">Zones antarctiques nca</structure:Description>
+                <structure:Description xml:lang="es">Áreas antárticas nep</structure:Description>
+            </structure:Code>
+            <structure:Code value="99">
+                <structure:Description xml:lang="en">Marine areas outside the Antarctic</structure:Description>
+                <structure:Description xml:lang="fr">Zones maritimes hors de l'Antarctique</structure:Description>
+                <structure:Description xml:lang="es">Áreas marítimas fuera del Antártico</structure:Description>
+            </structure:Code>
+            <structure:Code value="08">
+                <structure:Description xml:lang="en">Antarctica - Inland waters</structure:Description>
+                <structure:Description xml:lang="fr">Antarctique - Eaux continentales</structure:Description>
+                <structure:Description xml:lang="es">Antártida - Aguas continentales</structure:Description>
+            </structure:Code>
+        </structure:CodeList>
+        <structure:CodeList id="CL_ENVIRONMENT" agencyID="FAO" version="0.1" isFinal="false">
+            <structure:Name xml:lang="en">CL_ENVIRONMENT</structure:Name>
+            <structure:Code value="FRESHWATER">
+                <structure:Description xml:lang="en">Freshwater</structure:Description>
+                <structure:Description xml:lang="fr">Eau douce</structure:Description>
+                <structure:Description xml:lang="es">Agua dulce</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Freshwater][fr:Eau douce][es:Agua dulce][ar:][zh:][ru:]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="BRACKISHWATER">
+                <structure:Description xml:lang="en">Brackishwater</structure:Description>
+                <structure:Description xml:lang="fr">Eau saumâtre</structure:Description>
+                <structure:Description xml:lang="es">Agua salobre</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Brackishwater][fr:Eau saumâtre][es:Agua salobre][ar:][zh:][ru:]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="MARINE">
+                <structure:Description xml:lang="en">Marine</structure:Description>
+                <structure:Description xml:lang="fr">Marine</structure:Description>
+                <structure:Description xml:lang="es">Marina</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Marine][fr:Marine][es:Marina][ar:][zh:][ru:]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="ALL">
+                <structure:Description xml:lang="en">All environments</structure:Description>
+                <structure:Description xml:lang="fr">Tous milieux</structure:Description>
+                <structure:Description xml:lang="es">Todas</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:All environments][fr:Tous milieux][es:Todas][ar:][zh:][ru:]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="NOT_SPECIFIED">
+                <structure:Description xml:lang="en">Not Specified</structure:Description>
+                <structure:Description xml:lang="fr">Not Specified</structure:Description>
+                <structure:Description xml:lang="es">Not Specified</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Not Specified][fr:Not Specified][es:Not Specified][ar:][zh:][ru:]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="COASTAL">
+                <structure:Description xml:lang="en">Coastal</structure:Description>
+                <structure:Description xml:lang="fr">Coastal</structure:Description>
+                <structure:Description xml:lang="es">Coastal</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Coastal][fr:Coastal][es:Coastal][ar:][zh:][ru:]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="INLAND">
+                <structure:Description xml:lang="en">Inland</structure:Description>
+                <structure:Description xml:lang="fr">Inland</structure:Description>
+                <structure:Description xml:lang="es">Inland</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Inland][fr:Inland][es:Inland][ar:][zh:][ru:]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="OFFSHORE">
+                <structure:Description xml:lang="en">Offshore</structure:Description>
+                <structure:Description xml:lang="fr">Offshore</structure:Description>
+                <structure:Description xml:lang="es">Offshore</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Offshore][fr:Offshore][es:Offshore][ar:][zh:][ru:]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+        </structure:CodeList>
+        <structure:CodeList id="CL_UNIT" agencyID="FAO" version="0.1" isFinal="false">
+            <structure:Name xml:lang="en">CL_UNIT</structure:Name>
+            <structure:Code value="t">
+                <structure:Description xml:lang="en">Quantity (tonnes)</structure:Description>
+                <structure:Description xml:lang="fr">Quantitè</structure:Description>
+                <structure:Description xml:lang="es">Cantidad</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>CODE</common:AnnotationTitle>
+                        <common:AnnotationText>Q_t_1</common:AnnotationText>
+                    </common:Annotation>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Quantity (tonnes)][fr:Quantitè][es:Cantidad][ar:null][zh:null][ru:null]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="USD">
+                <structure:Description xml:lang="en">Value (USDx1000)</structure:Description>
+                <structure:Description xml:lang="fr">Valeur</structure:Description>
+                <structure:Description xml:lang="es">Valor</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>CODE</common:AnnotationTitle>
+                        <common:AnnotationText>V_USD_1000</common:AnnotationText>
+                    </common:Annotation>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Value (USDx1000)][fr:Valeur][es:Valor][ar:null][zh:null][ru:null]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="no">
+                <structure:Description xml:lang="en">Quantity (number)</structure:Description>
+                <structure:Description xml:lang="fr">Quantitè</structure:Description>
+                <structure:Description xml:lang="es">Cantidad</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>CODE</common:AnnotationTitle>
+                        <common:AnnotationText>Q_no_1</common:AnnotationText>
+                    </common:Annotation>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Quantity (number)][fr:Quantitè][es:Cantidad][ar:null][zh:null][ru:null]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="h">
+                <structure:Description xml:lang="en">Effort (hours)</structure:Description>
+                <structure:Description xml:lang="fr">Effort</structure:Description>
+                <structure:Description xml:lang="es">Esfuerzo</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>CODE</common:AnnotationTitle>
+                        <common:AnnotationText>E_h_1</common:AnnotationText>
+                    </common:Annotation>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Effort (hours)][fr:Effort][es:Esfuerzo][ar:null][zh:null][ru:null]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="kg">
+                <structure:Description xml:lang="en">Quantity (kilogrammes)</structure:Description>
+                <structure:Description xml:lang="fr">Quantitè</structure:Description>
+                <structure:Description xml:lang="es">Cantidad</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>CODE</common:AnnotationTitle>
+                        <common:AnnotationText>Q_kg_1</common:AnnotationText>
+                    </common:Annotation>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Quantity (kilogrammes)][fr:Quantitè][es:Cantidad][ar:null][zh:null][ru:null]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="m">
+                <structure:Description xml:lang="en">Length (meters)</structure:Description>
+                <structure:Description xml:lang="fr">Longeur</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>CODE</common:AnnotationTitle>
+                        <common:AnnotationText>L_m_1</common:AnnotationText>
+                    </common:Annotation>
+                    <common:Annotation>
+                        <common:AnnotationTitle>NAME</common:AnnotationTitle>
+                        <common:AnnotationText>[en:Length (meters)][fr:Longeur][es:null][ar:null][zh:null][ru:null]</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+        </structure:CodeList>
+       
+    </message:CodeLists>
+    <message:Concepts>
+        <structure:ConceptScheme id="CS_FISHSTAT" agencyID="FAO" version="1.0" urn="urn:sdmx:org.sdmx.infomodel.ConceptScheme=FAO:CS_FISHSTAT[1.0]" isFinal="true">
+            <structure:Name xml:lang="en">Fishstat Concept Scheme</structure:Name>
+            <structure:Concept id="PRODUCTION_AREA" agencyID="FAO" version="1.0">
+                <structure:Name xml:lang="en">Production Area (from major area to sub-unit)</structure:Name>
+            </structure:Concept>
+            <structure:Concept id="SPECIES" agencyID="FAO" version="1.0">
+                <structure:Name xml:lang="en">ASFIS Species Alpha 3 Code</structure:Name>
+            </structure:Concept>
+        </structure:ConceptScheme>
+    </message:Concepts>
+    <message:KeyFamilies>
+        <structure:KeyFamily id="AQUACULTURE_KEYFAMILY" agencyID="FAO" version="0.1" urn="urn:sdmx:org.sdmx.infomodel.KeyFamily=FAO:AQUACULTURE_KEYFAMILY[0.1]">
+            <structure:Name xml:lang="en">AQUACULTURE_KEYFAMILY</structure:Name>
+            <structure:Components>
+                <structure:Dimension conceptRef="FAO_MAJOR_AREA" conceptVersion="1.0" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT" codelist="CL_FAO_MAJOR_AREA" codelistVersion="0.1" codelistAgency="FAO"/>
+                <structure:Dimension conceptRef="UN_COUNTRY" conceptVersion="1.0" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT" codelist="CL_UN_COUNTRY" codelistVersion="0.1" codelistAgency="FAO"/>
+                <structure:Dimension conceptRef="SPECIES" conceptVersion="1.0" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT" codelist="CL_SPECIES" codelistVersion="1.0" codelistAgency="FAO"/>
+                <structure:Dimension conceptRef="ENVIRONMENT" conceptVersion="1.0" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT" codelist="CL_ENVIRONMENT" codelistVersion="0.1" codelistAgency="FAO"/>
+                <structure:TimeDimension conceptRef="TIME" conceptVersion="1.0" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT"/>
+                <structure:PrimaryMeasure conceptRef="OBS_VALUE" conceptVersion="1.0" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT"/>
+                <structure:Attribute conceptRef="UNIT" conceptVersion="1.0" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT" codelist="CL_UNIT" codelistVersion="0.1" codelistAgency="FAO" attachmentLevel="DataSet" assignmentStatus="Mandatory"/>
+            </structure:Components>
+        </structure:KeyFamily>
+    </message:KeyFamilies>
+</message:Structure>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Erik van Ingen (Food and Agriculture Organization) -->
+	<message:DataSet>
+		<generic:KeyFamilyRef>AQUACULTURE_KEYFAMILY</generic:KeyFamilyRef>
+		<generic:Attributes>
+			<generic:Value concept="UNIT_MULTIPLIER" value="1"/>
+		</generic:Attributes>
+		<generic:Series>
+			<generic:SeriesKey>
+				<generic:Value concept="FMFA_AREA" value="37"/>
+				<generic:Value concept="UN_COUNTRY" value="724"/>
+				<generic:Value concept="SPECIES_ALPHA_3_CODE" value="MUF"/>
+				<generic:Value concept="ENVIRONMENT" value="MARINE"/>
+			</generic:SeriesKey>
+			<generic:Obs>
+				<generic:Time>2006</generic:Time>
+				<generic:ObsValue value="0.0"/>
+				<generic:Attributes>
+					<generic:Value concept="UNIT" value="t"/>
+				</generic:Attributes>
+			</generic:Obs>
+			<generic:Obs>
+				<generic:Time>2007</generic:Time>
+				<generic:ObsValue value="1.0"/>
+				<generic:Attributes>
+					<generic:Value concept="UNIT" value="t"/>
+				</generic:Attributes>
+			</generic:Obs>
+		</generic:Series>
+	</message:DataSet>

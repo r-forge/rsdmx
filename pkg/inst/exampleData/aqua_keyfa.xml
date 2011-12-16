@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message:Structure xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:genericmetadata="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata" xmlns:message="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:registry="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/registry" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:query="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query" xmlns:metadatareport="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/metadatareport" xmlns:utility="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/utility" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://sdmx.org/docs/2_0/SDMXMessage.xsd">
+    <message:Header>
+        <message:ID>REGISTRY_RESPONSE</message:ID>
+        <message:Test>true</message:Test>
+        <message:Prepared>2011-04-01T16:01:28</message:Prepared>
+        <message:Sender id="FAO"/>
+    </message:Header>
+    <message:KeyFamilies>
+        <structure:KeyFamily id="AQUACULTURE_KEYFAMILY" agencyID="FAO" version="0.1" urn="urn:sdmx:org.sdmx.infomodel.KeyFamily=FAO:AQUACULTURE_KEYFAMILY[0.1]">
+            <structure:Name xml:lang="en">AQUACULTURE_KEYFAMILY</structure:Name>
+            <structure:Components>
+                <structure:Dimension conceptRef="FAO_MAJOR_AREA" conceptVersion="0.1" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT" codelist="CL_FAO_MAJOR_AREA" codelistVersion="0.1" codelistAgency="FAO"/>
+                <structure:Dimension conceptRef="UN_COUNTRY" conceptVersion="0.1" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT" codelist="CL_UN_COUNTRY" codelistVersion="0.1" codelistAgency="FAO"/>
+                <structure:Dimension conceptRef="SPECIES_ALPHA_3_CODE" conceptVersion="0.1" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT" codelist="CL_ASFIS_ALPHA3_LIGHT" codelistVersion="0.1" codelistAgency="FAO"/>
+                <structure:Dimension conceptRef="ENVIRONMENT" conceptVersion="0.1" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT" codelist="CL_ENVIRONMENT" codelistVersion="0.1" codelistAgency="FAO"/>
+                <structure:TimeDimension conceptRef="TIME" conceptVersion="0.1" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT"/>
+                <structure:PrimaryMeasure conceptRef="OBS_VALUE" conceptVersion="0.1" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT"/>
+                <structure:Attribute conceptRef="UNIT" conceptVersion="0.1" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT" codelist="CL_UNIT" codelistVersion="0.1" codelistAgency="FAO" attachmentLevel="DataSet" assignmentStatus="Mandatory"/>
+                <structure:Attribute conceptRef="UNIT_MULTIPLIER" conceptVersion="0.1" conceptAgency="FAO" conceptSchemeRef="CS_FISHSTAT" codelist="CL_UNIT_MULTIPLIER" codelistVersion="0.1" codelistAgency="FAO" attachmentLevel="Observation" assignmentStatus="Mandatory"/>
+            </structure:Components>
+        </structure:KeyFamily>
+    </message:KeyFamilies>
+</message:Structure>

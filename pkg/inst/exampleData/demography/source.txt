@@ -1,0 +1,4 @@
+taken from SDMX website on 10 May 2011:
+http://sdmx.org/wp-content/uploads/2011/04/SDMX_2-1_SECTION_3B_SDMX_ML_Schemas_Samples.zip
+
+file from archive sample/demographzy

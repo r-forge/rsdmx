@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<message:Structure xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:genericmetadata="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata" xmlns:message="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:registry="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/registry" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:query="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query" xmlns:metadatareport="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/metadatareport" xmlns:utility="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/utility" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://sdmx.org/docs/2_0/SDMXMessage.xsd">
+    <message:Header>
+        <message:ID>REGISTRY_RESPONSE</message:ID>
+        <message:Test>true</message:Test>
+        <message:Prepared>2011-04-19T09:12:14</message:Prepared>
+        <message:Sender id="FAO"/>
+    </message:Header>
+    <message:CodeLists>
+        <structure:CodeList id="CL_SUB_AREA" agencyID="FAO" version="0.1" isFinal="false">
+            <structure:Name xml:lang="en">CL_SUB_AREA</structure:Name>
+            <structure:Code value="21_0">
+                <structure:Description xml:lang="en">Atlantic, Northwest / 21.0</structure:Description>
+                <structure:Description xml:lang="fr">Atl NW / 21.0</structure:Description>
+                <structure:Description xml:lang="es">Atl NW / 21.0</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>21.0</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="21_1">
+                <structure:Description xml:lang="en">Atlantic, Northwest / 21.1</structure:Description>
+                <structure:Description xml:lang="fr">Atl NW / 21.1</structure:Description>
+                <structure:Description xml:lang="es">Atl NW / 21.1</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>21.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="21_2">
+                <structure:Description xml:lang="en">Atlantic, Northwest / 21.2</structure:Description>
+                <structure:Description xml:lang="fr">Atl NW / 21.2</structure:Description>
+                <structure:Description xml:lang="es">Atl NW / 21.2</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>21.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="21_3">
+                <structure:Description xml:lang="en">Atlantic, Northwest / 21.3</structure:Description>
+                <structure:Description xml:lang="fr">Atl NW / 21.3</structure:Description>
+                <structure:Description xml:lang="es">Atl NW / 21.3</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>21.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="21_4">
+                <structure:Description xml:lang="en">Atlantic, Northwest / 21.4</structure:Description>
+                <structure:Description xml:lang="fr">Atl NW / 21.4</structure:Description>
+                <structure:Description xml:lang="es">Atl NW / 21.4</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>21.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="21_5">
+                <structure:Description xml:lang="en">Atlantic, Northwest / 21.5</structure:Description>
+                <structure:Description xml:lang="fr">Atl NW / 21.5</structure:Description>
+                <structure:Description xml:lang="es">Atl NW / 21.5</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>21.5</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="21_6">
+                <structure:Description xml:lang="en">Atlantic, Northwest / 21.6</structure:Description>
+                <structure:Description xml:lang="fr">Atl NW / 21.6</structure:Description>
+                <structure:Description xml:lang="es">Atl NW / 21.6</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>21.6</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="27_1">
+                <structure:Description xml:lang="en">Atlantic, Northeast / 27.1</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est / 27.1</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste / 27.1</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>27.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="27_10">
+                <structure:Description xml:lang="en">Atlantic, Northeast / 27.10</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est / 27.10</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste / 27.10</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>27.10</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="27_12">
+                <structure:Description xml:lang="en">Atlantic, Northeast / 27.12</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est / 27.12</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste / 27.12</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>27.12</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="27_14">
+                <structure:Description xml:lang="en">Atlantic, Northeast / 27.14</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est / 27.14</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste / 27.14</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>27.14</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="27_2">
+                <structure:Description xml:lang="en">Atlantic, Northeast / 27.2</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est / 27.2</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste / 27.2</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>27.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="27_3">
+                <structure:Description xml:lang="en">Atlantic, Northeast / 27.3</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est / 27.3</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste / 27.3</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>27.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="27_4">
+                <structure:Description xml:lang="en">Atlantic, Northeast / 27.4</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est / 27.4</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste / 27.4</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>27.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="27_5">
+                <structure:Description xml:lang="en">Atlantic, Northeast / 27.5</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est / 27.5</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste / 27.5</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>27.5</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="27_6">
+                <structure:Description xml:lang="en">Atlantic, Northeast / 27.6</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est / 27.6</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste / 27.6</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>27.6</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="27_7">
+                <structure:Description xml:lang="en">Atlantic, Northeast / 27.7</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est / 27.7</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste / 27.7</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>27.7</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="27_8">
+                <structure:Description xml:lang="en">Atlantic, Northeast / 27.8</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est / 27.8</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste / 27.8</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>27.8</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="27_9">
+                <structure:Description xml:lang="en">Atlantic, Northeast / 27.9</structure:Description>
+                <structure:Description xml:lang="fr">Atlantique, nord-est / 27.9</structure:Description>
+                <structure:Description xml:lang="es">Atlántico, nordeste / 27.9</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>27.9</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="34_1">
+                <structure:Description xml:lang="en">Northern coastal subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone côtière nord</structure:Description>
+                <structure:Description xml:lang="es">Subárea costera norte</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>34.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="34_2">
+                <structure:Description xml:lang="en">Northern oceanic subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone océanique nord</structure:Description>
+                <structure:Description xml:lang="es">Subárea oceánica norte</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>34.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="34_3">
+                <structure:Description xml:lang="en">Southern coastal subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone côtière sud</structure:Description>
+                <structure:Description xml:lang="es">Subárea costera sur</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>34.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="34_4">
+                <structure:Description xml:lang="en">Southern oceanic subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone océanique sud</structure:Description>
+                <structure:Description xml:lang="es">Subárea oceánica sur</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>34.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="37_1">
+                <structure:Description xml:lang="en">Western subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone occidentale</structure:Description>
+                <structure:Description xml:lang="es">Subárea occidental</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>37.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="37_2">
+                <structure:Description xml:lang="en">Central subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone centrale</structure:Description>
+                <structure:Description xml:lang="es">Subárea central</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>37.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="37_3">
+                <structure:Description xml:lang="en">Eastern subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone orientale</structure:Description>
+                <structure:Description xml:lang="es">Subárea oriental</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>37.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="37_4">
+                <structure:Description xml:lang="en">Black Sea subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone mer Noire</structure:Description>
+                <structure:Description xml:lang="es">Subárea mar Negro</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>37.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="41_1">
+                <structure:Description xml:lang="en">Atlantic, Southwest / 41.1</structure:Description>
+                <structure:Description xml:lang="fr">Atl SW / 41.1</structure:Description>
+                <structure:Description xml:lang="es">Atl SW / 41.1</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>41.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="41_2">
+                <structure:Description xml:lang="en">Atlantic, Southwest / 41.2</structure:Description>
+                <structure:Description xml:lang="fr">Atl SW / 41.2</structure:Description>
+                <structure:Description xml:lang="es">Atl SW / 41.2</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>41.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="41_3">
+                <structure:Description xml:lang="en">Atlantic, Southwest / 41.3</structure:Description>
+                <structure:Description xml:lang="fr">Atl SW / 41.3</structure:Description>
+                <structure:Description xml:lang="es">Atl SW / 41.3</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>41.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="47_1">
+                <structure:Description xml:lang="en">Western coastal subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone côtière occidentale</structure:Description>
+                <structure:Description xml:lang="es">Subárea costera occidental</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>47.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="47_2">
+                <structure:Description xml:lang="en">Agulhas coastal subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone côtière des Aiguilles</structure:Description>
+                <structure:Description xml:lang="es">Subárea costera de Agulhas</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>47.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="47_3">
+                <structure:Description xml:lang="en">Southern oceanic subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone océanique sud</structure:Description>
+                <structure:Description xml:lang="es">Subárea oceánica sur</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>47.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="47_4">
+                <structure:Description xml:lang="en">Tristan da Cunha subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone Tristan da Cunha</structure:Description>
+                <structure:Description xml:lang="es">Subárea Tristan da Cunha</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>47.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="47_5">
+                <structure:Description xml:lang="en">St Helena and Ascension subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone Ste Hélène et Ascension</structure:Description>
+                <structure:Description xml:lang="es">Subárea de Sta Elena y Ascensión</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>47.5</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="48_1">
+                <structure:Description xml:lang="en">Atlantic Antarctic / 48.1</structure:Description>
+                <structure:Description xml:lang="fr">Atl Antar / 48.1</structure:Description>
+                <structure:Description xml:lang="es">Atl Antar / 48.1</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>48.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="48_2">
+                <structure:Description xml:lang="en">Atlantic Antarctic / 48.2</structure:Description>
+                <structure:Description xml:lang="fr">Atl Antar / 48.2</structure:Description>
+                <structure:Description xml:lang="es">Atl Antar / 48.2</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>48.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="48_3">
+                <structure:Description xml:lang="en">Atlantic Antarctic / 48.3</structure:Description>
+                <structure:Description xml:lang="fr">Atl Antar / 48.3</structure:Description>
+                <structure:Description xml:lang="es">Atl Antar / 48.3</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>48.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="48_4">
+                <structure:Description xml:lang="en">Atlantic Antarctic / 48.4</structure:Description>
+                <structure:Description xml:lang="fr">Atl Antar / 48.4</structure:Description>
+                <structure:Description xml:lang="es">Atl Antar / 48.4</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>48.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="48_5">
+                <structure:Description xml:lang="en">Atlantic Antarctic / 48.5</structure:Description>
+                <structure:Description xml:lang="fr">Atl Antar / 48.5</structure:Description>
+                <structure:Description xml:lang="es">Atl Antar / 48.5</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>48.5</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="48_6">
+                <structure:Description xml:lang="en">Atlantic Antarctic / 48.6</structure:Description>
+                <structure:Description xml:lang="fr">Atl Antar / 48.6</structure:Description>
+                <structure:Description xml:lang="es">Atl Antar / 48.6</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>48.6</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="51_1">
+                <structure:Description xml:lang="en">Red Sea subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone mer Rouge</structure:Description>
+                <structure:Description xml:lang="es">Subárea mar Rojo</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>51.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="51_2">
+                <structure:Description xml:lang="en">Gulf subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone Golfe</structure:Description>
+                <structure:Description xml:lang="es">Subárea Golfo</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>51.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="51_3">
+                <structure:Description xml:lang="en">Western Arabian Sea subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone mer Arabe occidental</structure:Description>
+                <structure:Description xml:lang="es">Subárea mar Árabe occidental</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>51.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="51_4">
+                <structure:Description xml:lang="en">Indian Ocean, West / 51.4</structure:Description>
+                <structure:Description xml:lang="fr">Ind W / 51.4</structure:Description>
+                <structure:Description xml:lang="es">Ind W / 51.4</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>51.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="51_5">
+                <structure:Description xml:lang="en">Indian Ocean, West / 51.5</structure:Description>
+                <structure:Description xml:lang="fr">Ind W / 51.5</structure:Description>
+                <structure:Description xml:lang="es">Ind W / 51.5</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>51.5</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="51_6">
+                <structure:Description xml:lang="en">Indian Ocean, West / 51.6</structure:Description>
+                <structure:Description xml:lang="fr">Ind W / 51.6</structure:Description>
+                <structure:Description xml:lang="es">Ind W / 51.6</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>51.6</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="51_7">
+                <structure:Description xml:lang="en">Indian Ocean, West / 51.7</structure:Description>
+                <structure:Description xml:lang="fr">Ind W / 51.7</structure:Description>
+                <structure:Description xml:lang="es">Ind W / 51.7</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>51.7</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="51_8">
+                <structure:Description xml:lang="en">Indian Ocean, West / 51.8</structure:Description>
+                <structure:Description xml:lang="fr">Ind W / 51.8</structure:Description>
+                <structure:Description xml:lang="es">Ind W / 51.8</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>51.8</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="57_1">
+                <structure:Description xml:lang="en">Indian Ocean, East / 57.1</structure:Description>
+                <structure:Description xml:lang="fr">Ind E / 57.1</structure:Description>
+                <structure:Description xml:lang="es">Ind E / 57.1</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>57.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="57_2">
+                <structure:Description xml:lang="en">Indian Ocean, East / 57.2</structure:Description>
+                <structure:Description xml:lang="fr">Ind E / 57.2</structure:Description>
+                <structure:Description xml:lang="es">Ind E / 57.2</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>57.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="57_3">
+                <structure:Description xml:lang="en">Indian Ocean, East / 57.3</structure:Description>
+                <structure:Description xml:lang="fr">Ind E / 57.3</structure:Description>
+                <structure:Description xml:lang="es">Ind E / 57.3</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>57.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="57_4">
+                <structure:Description xml:lang="en">Indian Ocean, East / 57.4</structure:Description>
+                <structure:Description xml:lang="fr">Ind E / 57.4</structure:Description>
+                <structure:Description xml:lang="es">Ind E / 57.4</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>57.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="57_5">
+                <structure:Description xml:lang="en">Indian Ocean, East / 57.5</structure:Description>
+                <structure:Description xml:lang="fr">Ind E / 57.5</structure:Description>
+                <structure:Description xml:lang="es">Ind E / 57.5</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>57.5</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="57_6">
+                <structure:Description xml:lang="en">Indian Ocean, East / 57.6</structure:Description>
+                <structure:Description xml:lang="fr">Ind E / 57.6</structure:Description>
+                <structure:Description xml:lang="es">Ind E / 57.6</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>57.6</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="58_4">
+                <structure:Description xml:lang="en">Indian Antarctic 58.4</structure:Description>
+                <structure:Description xml:lang="fr">Ind Antar 58.4</structure:Description>
+                <structure:Description xml:lang="es">Ind Antar 58.4</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>58.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="58_5">
+                <structure:Description xml:lang="en">Indian Antarctic 58.5</structure:Description>
+                <structure:Description xml:lang="fr">Ind Antar 58.5</structure:Description>
+                <structure:Description xml:lang="es">Ind Antar 58.5</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>58.5</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="58_6">
+                <structure:Description xml:lang="en">Indian Antarctic 58.6</structure:Description>
+                <structure:Description xml:lang="fr">Ind Antar 58.6</structure:Description>
+                <structure:Description xml:lang="es">Ind Antar 58.6</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>58.6</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="58_7">
+                <structure:Description xml:lang="en">Indian Antarctic 58.7</structure:Description>
+                <structure:Description xml:lang="fr">Ind Antar 58.7</structure:Description>
+                <structure:Description xml:lang="es">Ind Antar 58.7</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>58.7</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="88_1">
+                <structure:Description xml:lang="en">Pacific Antarctic / 88.1</structure:Description>
+                <structure:Description xml:lang="fr">Pac Antar / 88.1</structure:Description>
+                <structure:Description xml:lang="es">Pac Antar / 88.1</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>88.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="88_2">
+                <structure:Description xml:lang="en">Pacific Antarctic / 88.2</structure:Description>
+                <structure:Description xml:lang="fr">Pac Antar / 88.2</structure:Description>
+                <structure:Description xml:lang="es">Pac Antar / 88.2</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>88.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="88_3">
+                <structure:Description xml:lang="en">Pacific Antarctic / 88.3</structure:Description>
+                <structure:Description xml:lang="fr">Pac Antar / 88.3</structure:Description>
+                <structure:Description xml:lang="es">Pac Antar / 88.3</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>88.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="87_1">
+                <structure:Description xml:lang="en">Pacific, Southeast / 87.1</structure:Description>
+                <structure:Description xml:lang="fr">Pac SE / 87.1</structure:Description>
+                <structure:Description xml:lang="es">Pac SE / 87.1</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>87.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="87_2">
+                <structure:Description xml:lang="en">Pacific, Southeast / 87.2</structure:Description>
+                <structure:Description xml:lang="fr">Pac SE / 87.2</structure:Description>
+                <structure:Description xml:lang="es">Pac SE / 87.2</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>87.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="87_3">
+                <structure:Description xml:lang="en">Pacific, Southeast / 87.3</structure:Description>
+                <structure:Description xml:lang="fr">Pac SE / 87.3</structure:Description>
+                <structure:Description xml:lang="es">Pac SE / 87.3</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>87.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="47_X">
+                <structure:Description xml:lang="en">Oceanic subarea</structure:Description>
+                <structure:Description xml:lang="fr">Sous-zone océanique</structure:Description>
+                <structure:Description xml:lang="es">Subárea oceánica</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>47.X</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="31_1">
+                <structure:Description xml:lang="en">Atlantic, West central / 31.1</structure:Description>
+                <structure:Description xml:lang="fr">Atl WC / 31.1</structure:Description>
+                <structure:Description xml:lang="es">Atl WC / 31.1</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>31.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="31_10">
+                <structure:Description xml:lang="en">Atlantic, West central / 31.10</structure:Description>
+                <structure:Description xml:lang="fr">Atl WC / 31.10</structure:Description>
+                <structure:Description xml:lang="es">Atl WC / 31.10</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>31.10</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="31_11">
+                <structure:Description xml:lang="en">Atlantic, West central / 31.11</structure:Description>
+                <structure:Description xml:lang="fr">Atl WC / 31.11</structure:Description>
+                <structure:Description xml:lang="es">Atl WC / 31.11</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>31.11</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="31_2">
+                <structure:Description xml:lang="en">Atlantic, West central / 31.2</structure:Description>
+                <structure:Description xml:lang="fr">Atl WC / 31.2</structure:Description>
+                <structure:Description xml:lang="es">Atl WC / 31.2</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>31.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="31_3">
+                <structure:Description xml:lang="en">Atlantic, West central / 31.3</structure:Description>
+                <structure:Description xml:lang="fr">Atl WC / 31.3</structure:Description>
+                <structure:Description xml:lang="es">Atl WC / 31.3</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>31.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="31_4">
+                <structure:Description xml:lang="en">Atlantic, West central / 31.4</structure:Description>
+                <structure:Description xml:lang="fr">Atl WC / 31.4</structure:Description>
+                <structure:Description xml:lang="es">Atl WC / 31.4</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>31.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="31_5">
+                <structure:Description xml:lang="en">Atlantic, West central / 31.5</structure:Description>
+                <structure:Description xml:lang="fr">Atl WC / 31.5</structure:Description>
+                <structure:Description xml:lang="es">Atl WC / 31.5</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>31.5</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="31_6">
+                <structure:Description xml:lang="en">Atlantic, West central / 31.6</structure:Description>
+                <structure:Description xml:lang="fr">Atl WC / 31.6</structure:Description>
+                <structure:Description xml:lang="es">Atl WC / 31.6</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>31.6</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="31_7">
+                <structure:Description xml:lang="en">Atlantic, West central / 31.7</structure:Description>
+                <structure:Description xml:lang="fr">Atl WC / 31.7</structure:Description>
+                <structure:Description xml:lang="es">Atl WC / 31.7</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>31.7</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="31_8">
+                <structure:Description xml:lang="en">Atlantic, West central / 31.8</structure:Description>
+                <structure:Description xml:lang="fr">Atl WC / 31.8</structure:Description>
+                <structure:Description xml:lang="es">Atl WC / 31.8</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>31.8</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="31_9">
+                <structure:Description xml:lang="en">Atlantic, West central / 31.9</structure:Description>
+                <structure:Description xml:lang="fr">Atl WC / 31.9</structure:Description>
+                <structure:Description xml:lang="es">Atl WC / 31.9</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>31.9</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="71_1">
+                <structure:Description xml:lang="en">Pacific, West central / 71.1</structure:Description>
+                <structure:Description xml:lang="fr">Pac WC / 71.1</structure:Description>
+                <structure:Description xml:lang="es">Pac WC / 71.1</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>71.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="71_2">
+                <structure:Description xml:lang="en">Pacific, West central / 71.2</structure:Description>
+                <structure:Description xml:lang="fr">Pac WC / 71.2</structure:Description>
+                <structure:Description xml:lang="es">Pac WC / 71.2</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>71.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="71_3">
+                <structure:Description xml:lang="en">Pacific, West central / 71.3</structure:Description>
+                <structure:Description xml:lang="fr">Pac WC / 71.3</structure:Description>
+                <structure:Description xml:lang="es">Pac WC / 71.3</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>71.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="71_4">
+                <structure:Description xml:lang="en">Pacific, West central / 71.4</structure:Description>
+                <structure:Description xml:lang="fr">Pac WC / 71.4</structure:Description>
+                <structure:Description xml:lang="es">Pac WC / 71.4</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>71.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="71_5">
+                <structure:Description xml:lang="en">Pacific, West central / 71.5</structure:Description>
+                <structure:Description xml:lang="fr">Pac WC / 71.5</structure:Description>
+                <structure:Description xml:lang="es">Pac WC / 71.5</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>71.5</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="71_6">
+                <structure:Description xml:lang="en">Pacific, West central / 71.6</structure:Description>
+                <structure:Description xml:lang="fr">Pac WC / 71.6</structure:Description>
+                <structure:Description xml:lang="es">Pac WC / 71.6</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>71.6</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="71_7">
+                <structure:Description xml:lang="en">Pacific, West central / 71.7</structure:Description>
+                <structure:Description xml:lang="fr">Pac WC / 71.7</structure:Description>
+                <structure:Description xml:lang="es">Pac WC / 71.7</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>71.7</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="71_8">
+                <structure:Description xml:lang="en">Pacific, West central / 71.8</structure:Description>
+                <structure:Description xml:lang="fr">Pac WC / 71.8</structure:Description>
+                <structure:Description xml:lang="es">Pac WC / 71.8</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>71.8</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="81_1">
+                <structure:Description xml:lang="en">Pacific, Southwest / 81.1</structure:Description>
+                <structure:Description xml:lang="fr">Pac SW / 81.1</structure:Description>
+                <structure:Description xml:lang="es">Pac SW / 81.1</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>81.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="81_2">
+                <structure:Description xml:lang="en">Pacific, Southwest / 81.2</structure:Description>
+                <structure:Description xml:lang="fr">Pac SW / 81.2</structure:Description>
+                <structure:Description xml:lang="es">Pac SW / 81.2</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>81.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="81_3">
+                <structure:Description xml:lang="en">Pacific, Southwest / 81.3</structure:Description>
+                <structure:Description xml:lang="fr">Pac SW / 81.3</structure:Description>
+                <structure:Description xml:lang="es">Pac SW / 81.3</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>81.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="81_4">
+                <structure:Description xml:lang="en">Pacific, Southwest / 81.4</structure:Description>
+                <structure:Description xml:lang="fr">Pac SW / 81.4</structure:Description>
+                <structure:Description xml:lang="es">Pac SW / 81.4</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>81.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="81_5">
+                <structure:Description xml:lang="en">Pacific, Southwest / 81.5</structure:Description>
+                <structure:Description xml:lang="fr">Pac SW / 81.5</structure:Description>
+                <structure:Description xml:lang="es">Pac SW / 81.5</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>81.5</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="81_6">
+                <structure:Description xml:lang="en">Pacific, Southwest / 81.6</structure:Description>
+                <structure:Description xml:lang="fr">Pac SW / 81.6</structure:Description>
+                <structure:Description xml:lang="es">Pac SW / 81.6</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>81.6</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="81_7">
+                <structure:Description xml:lang="en">Pacific, Southwest / 81.7</structure:Description>
+                <structure:Description xml:lang="fr">Pac SW / 81.7</structure:Description>
+                <structure:Description xml:lang="es">Pac SW / 81.7</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>81.7</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="47_8">
+                <structure:Description xml:lang="en">Atlantic, Southeast / 47.8</structure:Description>
+                <structure:Description xml:lang="fr">Atl SE / 47.8</structure:Description>
+                <structure:Description xml:lang="es">Atl SE / 47.8</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>47.8</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="61_1">
+                <structure:Description xml:lang="en">Pacific, Northwest / 61.1</structure:Description>
+                <structure:Description xml:lang="fr">Pac NW / 61.1</structure:Description>
+                <structure:Description xml:lang="es">Pac NW / 61.1</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>61.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="61_2">
+                <structure:Description xml:lang="en">Pacific, Northwest / 61.2</structure:Description>
+                <structure:Description xml:lang="fr">Pac NW / 61.2</structure:Description>
+                <structure:Description xml:lang="es">Pac NW / 61.2</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>61.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="61_3">
+                <structure:Description xml:lang="en">Pacific, Northwest / 61.3</structure:Description>
+                <structure:Description xml:lang="fr">Pac NW / 61.3</structure:Description>
+                <structure:Description xml:lang="es">Pac NW / 61.3</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>61.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="61_4">
+                <structure:Description xml:lang="en">Pacific, Northwest / 61.4</structure:Description>
+                <structure:Description xml:lang="fr">Pac NW / 61.4</structure:Description>
+                <structure:Description xml:lang="es">Pac NW / 61.4</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>61.4</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="67_1">
+                <structure:Description xml:lang="en">Pacific, Northeast / 67.1</structure:Description>
+                <structure:Description xml:lang="fr">Pac NE / 67.1</structure:Description>
+                <structure:Description xml:lang="es">Pac NE / 67.1</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>67.1</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="67_2">
+                <structure:Description xml:lang="en">Pacific, Northeast / 67.2</structure:Description>
+                <structure:Description xml:lang="fr">Pac NE / 67.2</structure:Description>
+                <structure:Description xml:lang="es">Pac NE / 67.2</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>67.2</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+            <structure:Code value="67_3">
+                <structure:Description xml:lang="en">Pacific, Northeast / 67.3</structure:Description>
+                <structure:Description xml:lang="fr">Pac NE / 67.3</structure:Description>
+                <structure:Description xml:lang="es">Pac NE / 67.3</structure:Description>
+                <structure:Annotations>
+                    <common:Annotation>
+                        <common:AnnotationTitle>ORIGINAL_CODE</common:AnnotationTitle>
+                        <common:AnnotationText>67.3</common:AnnotationText>
+                    </common:Annotation>
+                </structure:Annotations>
+            </structure:Code>
+        </structure:CodeList>
+    </message:CodeLists>
+</message:Structure>

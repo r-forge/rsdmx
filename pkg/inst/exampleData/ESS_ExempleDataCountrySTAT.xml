@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<GenericData xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message">
+  <Header>
+    <DataSetID>233CPD035</DataSetID>
+    <ID>233CPD035</ID>
+    <Prepared>2011-04-20T09:29:30Z</Prepared>
+    <Sender id="233CPD035">
+      <Name xml:lang="fr">Direction Générale de la Prévision et des Statistiques de l'Elevage</Name>
+    </Sender>
+    <Test>false</Test>
+  </Header>
+  <DataSet dataflowID="Production">
+    <generic:Attributes>
+      <generic:Value concept="TITLE" value="Élevage – Total des effectifs d’animaux vivants" />
+      <generic:Value concept="LANGUAGE" value="fr" />
+      <generic:Value concept="NEXT-UPDATE" value="20110201" />
+    </generic:Attributes>
+    <generic:Series>
+      <generic:Attributes>
+        <generic:Value concept="UNITS" value="Head" />
+        <generic:Value concept="MULTIPLIER" value="1" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="914543" />
+        <generic:Time>2003</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="932810" />
+        <generic:Time>2004</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="951447" />
+        <generic:Time>2005</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="970452" />
+        <generic:Time>2006</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="989840" />
+        <generic:Time>2007</generic:Time>
+      </generic:Obs>
+      <generic:SeriesKey>
+        <generic:Value concept="FREQ" value="A" />
+        <generic:Value concept="DOMAIN" value="Q" />
+        <generic:Value concept="REF_AREA" value="233" />
+        <generic:Value concept="INDICATOR" value="5111" />
+        <generic:Value concept="COMMODITY" value="1107" />
+      </generic:SeriesKey>
+    </generic:Series>
+    <generic:Series>
+      <generic:Attributes>
+        <generic:Value concept="UNITS" value="Head" />
+        <generic:Value concept="MULTIPLIER" value="1" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="7311544" />
+        <generic:Time>2003</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="7457754" />
+        <generic:Time>2004</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="7606887" />
+        <generic:Time>2005</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="7759005" />
+        <generic:Time>2006</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="7914160" />
+        <generic:Time>2007</generic:Time>
+      </generic:Obs>
+      <generic:SeriesKey>
+        <generic:Value concept="FREQ" value="A" />
+        <generic:Value concept="DOMAIN" value="Q" />
+        <generic:Value concept="REF_AREA" value="233" />
+        <generic:Value concept="INDICATOR" value="5111" />
+        <generic:Value concept="COMMODITY" value="866" />
+      </generic:SeriesKey>
+    </generic:Series>
+    <generic:Series>
+      <generic:Attributes>
+        <generic:Value concept="UNITS" value="Head" />
+        <generic:Value concept="MULTIPLIER" value="1" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="14811" />
+        <generic:Time>2003</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="15103" />
+        <generic:Time>2004</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="15401" />
+        <generic:Time>2005</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="15705" />
+        <generic:Time>2006</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="16016" />
+        <generic:Time>2007</generic:Time>
+      </generic:Obs>
+      <generic:SeriesKey>
+        <generic:Value concept="FREQ" value="A" />
+        <generic:Value concept="DOMAIN" value="Q" />
+        <generic:Value concept="REF_AREA" value="233" />
+        <generic:Value concept="INDICATOR" value="5111" />
+        <generic:Value concept="COMMODITY" value="1126" />
+      </generic:SeriesKey>
+    </generic:Series>
+    <generic:Series>
+      <generic:Attributes>
+        <generic:Value concept="UNITS" value="Head" />
+        <generic:Value concept="MULTIPLIER" value="1" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="10035687" />
+        <generic:Time>2003</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="10336735" />
+        <generic:Time>2004</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="10646811" />
+        <generic:Time>2005</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="10966197" />
+        <generic:Time>2006</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="11295160" />
+        <generic:Time>2007</generic:Time>
+      </generic:Obs>
+      <generic:SeriesKey>
+        <generic:Value concept="FREQ" value="A" />
+        <generic:Value concept="DOMAIN" value="Q" />
+        <generic:Value concept="REF_AREA" value="233" />
+        <generic:Value concept="INDICATOR" value="5111" />
+        <generic:Value concept="COMMODITY" value="1016" />
+      </generic:SeriesKey>
+    </generic:Series>
+    <generic:Series>
+      <generic:Attributes>
+        <generic:Value concept="UNITS" value="Head" />
+        <generic:Value concept="MULTIPLIER" value="1" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="36067" />
+        <generic:Time>2003</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="36410" />
+        <generic:Time>2004</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="36757" />
+        <generic:Time>2005</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="37106" />
+        <generic:Time>2006</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="37456" />
+        <generic:Time>2007</generic:Time>
+      </generic:Obs>
+      <generic:SeriesKey>
+        <generic:Value concept="FREQ" value="A" />
+        <generic:Value concept="DOMAIN" value="Q" />
+        <generic:Value concept="REF_AREA" value="233" />
+        <generic:Value concept="INDICATOR" value="5111" />
+        <generic:Value concept="COMMODITY" value="1096" />
+      </generic:SeriesKey>
+    </generic:Series>
+    <generic:Series>
+      <generic:Attributes>
+        <generic:Value concept="UNITS" value="Head" />
+        <generic:Value concept="MULTIPLIER" value="1" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="6702640" />
+        <generic:Time>2003</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="6903698" />
+        <generic:Time>2004</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="7110788" />
+        <generic:Time>2005</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="7324091" />
+        <generic:Time>2006</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="7543792" />
+        <generic:Time>2007</generic:Time>
+      </generic:Obs>
+      <generic:SeriesKey>
+        <generic:Value concept="FREQ" value="A" />
+        <generic:Value concept="DOMAIN" value="Q" />
+        <generic:Value concept="REF_AREA" value="233" />
+        <generic:Value concept="INDICATOR" value="5111" />
+        <generic:Value concept="COMMODITY" value="976" />
+      </generic:SeriesKey>
+    </generic:Series>
+    <generic:Series>
+      <generic:Attributes>
+        <generic:Value concept="UNITS" value="Head" />
+        <generic:Value concept="MULTIPLIER" value="1" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="1886851" />
+        <generic:Time>2003</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="1924568" />
+        <generic:Time>2004</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="1963039" />
+        <generic:Time>2005</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="2002276" />
+        <generic:Time>2006</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="2042300" />
+        <generic:Time>2007</generic:Time>
+      </generic:Obs>
+      <generic:SeriesKey>
+        <generic:Value concept="FREQ" value="A" />
+        <generic:Value concept="DOMAIN" value="Q" />
+        <generic:Value concept="REF_AREA" value="233" />
+        <generic:Value concept="INDICATOR" value="5111" />
+        <generic:Value concept="COMMODITY" value="1034" />
+      </generic:SeriesKey>
+    </generic:Series>
+    <generic:Series>
+      <generic:Attributes>
+        <generic:Value concept="UNITS" value="Head" />
+        <generic:Value concept="MULTIPLIER" value="1" />
+      </generic:Attributes>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="30501334" />
+        <generic:Time>2003</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="31416374" />
+        <generic:Time>2004</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="32358775" />
+        <generic:Time>2005</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="33329492" />
+        <generic:Time>2006</generic:Time>
+      </generic:Obs>
+      <generic:Obs>
+        <generic:Attributes>
+          <generic:Value concept="OBS_STATUS" value="A" />
+        </generic:Attributes>
+        <generic:ObsValue value="34329338" />
+        <generic:Time>2007</generic:Time>
+      </generic:Obs>
+      <generic:SeriesKey>
+        <generic:Value concept="FREQ" value="A" />
+        <generic:Value concept="DOMAIN" value="Q" />
+        <generic:Value concept="REF_AREA" value="233" />
+        <generic:Value concept="INDICATOR" value="5111" />
+        <generic:Value concept="COMMODITY" value="1057" />
+      </generic:SeriesKey>
+    </generic:Series>
+    <generic:KeyFamilyRef>FAOSTAT_Warehouse[1.0]</generic:KeyFamilyRef>
+  </DataSet>
+</GenericData>
