@@ -3,7 +3,6 @@
 ## Last update: 09/05/2011
 ## Updates:
 ## - Encoding set to "UTF-8" by default (getEncoding makes R crashing when there is no Encoding XML attribute)
-##       --> To see with OpenSDMX developers (Anton Ellenbroek, Erik Van Ingen)
 ## - if loop set to distinguish codelist values with 1 description (1 language) from those with more than 1 description
 ## - if listName is missing --> list of all codelist (list of dataframes)
 ## - if the user selects a list of codeListNames, the function returns a list of dataframes in which each dataframe is the codeList content
