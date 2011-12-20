@@ -1,43 +1,44 @@
 ## Author: Emmanuel Blondel
 ## Contact: emmanuel.blondel1 at gmail.com
 ## Created on 23/04/2011
-## Last Update: 26/04/2011
+## Last Update: 20/12/2011
 ## Description: An example function to eetrieve a SDMX dataset in a R dataframe
 ##
-## TO BE INTEGRATED:
-## - different ways of returning the data in the DF (one column for obsTime + 1 for the value, or: various column for the value
-## corresponding to each obsTime (colname) ) 
-## - to investigate processing time (especially a better use of xPath,etc)
-## ...
+## - Manage now the tag prefix (if different than "generic")
 
-getSerie<-function(sdmx)
-  {
-  conceptListTP<-getNodeSet(sdmx,"//generic:SeriesKey/generic:Value")
-  conceptList<-unique(sapply(conceptListTP, function(x) xmlGetAttr(x, "concept")))
+## getSerie(sdmx) ##
 
-  # quelles années sont intégrées dans le dataset??
-#   cObsTime<-getNodeSet(sdmx, "//message:DataSet/generic:Series/generic:Obs/generic:Time")
-  cObsTime<-getNodeSet(sdmx, "//generic:Series/generic:Obs/generic:Time") # mat says: I changed line since message:DataSet did not seem to be in FAOSTAT
-  obsTime<-unique(sapply(cObsTime,function(x) {xmlValue(x)}))
-  L<-length(obsTime)
+getSerie<-function(sdmx){
+	
+	#tag prefix management
+	prefix1<-unlist(strsplit(xmlName(xmlRoot(sdmx)[[2]], full=T),":"))[1]
+	prefix2<-unlist(strsplit(xmlName(xmlChildren(getNodeSet(sdmx,paste("//",prefix1,":DataSet", sep=""))[[1]])[[1]], full = T),":"))[1]
+	
+	#concepts
+	conceptListTP<-getNodeSet(sdmx, paste("//",prefix2,":SeriesKey/",prefix2,":Value", sep=""))
+  	conceptList<-unique(sapply(conceptListTP, function(x) xmlGetAttr(x, "concept")))
+
+	#obsTimes
+  	cObsTime<-getNodeSet(sdmx, paste("//",prefix2,":Series/",prefix2,":Obs/",prefix2,":Time", sep=""))
+  	obsTime<-unique(sapply(cObsTime,function(x) {xmlValue(x)}))
+  	L<-length(obsTime)
   
-  #conceptValues (the dataframe is replicated according to the number of years)
-  conceptValues<-as.data.frame(sapply(conceptList, function(x)
-    {
-     cConceptValue<-getNodeSet(sdmx, sprintf("//generic:SeriesKey/generic:Value[@concept='%s']",x))
-     conceptValue<-sapply(cConceptValue,function(x) {rep(xmlGetAttr(x,"value"),L)})
+  	#conceptValues (the dataframe is replicated according to the number of years)
+  	conceptValues<-as.data.frame(sapply(conceptList, function(x){
+    	cConceptValue<-getNodeSet(sdmx, sprintf(paste("//",prefix2,":SeriesKey/",prefix2,":Value[@concept='%s']",sep=""),x))
+     	conceptValue<-sapply(cConceptValue,function(x) {rep(xmlGetAttr(x,"value"),L)})
     }))
 
-  #Valeurs de capture
-  cObsValue<-getNodeSet(sdmx,"//generic:ObsValue[@value]")
-  obsValue<-sapply(cObsValue,function(x) {xmlGetAttr(x,"value")})
-  timeSerie<-cbind(conceptValues,obsTime,obsValue)
+  	#obsValues
+  	cObsValue<-getNodeSet(sdmx,paste("//",prefix2,":ObsValue[@value]",sep=""))
+  	obsValue<-sapply(cObsValue,function(x) {xmlGetAttr(x,"value")})
+  	timeSerie<-cbind(conceptValues,obsTime,obsValue)
 
-  #check classes (HORRIBLE WORKAROUND)
-  modes<-sapply(timeSerie[1,], checkMode)
-  for(i in 1:ncol(timeSerie)) timeSerie[,i]<-if(modes[i]=="numeric") as.numeric(as.character(timeSerie[,i])) else timeSerie[,i]
+  	#check classes (HORRIBLE WORKAROUND)
+  	modes<-sapply(timeSerie[1,], checkMode)
+  	for(i in 1:ncol(timeSerie)) timeSerie[,i]<-if(modes[i]=="numeric") as.numeric(as.character(timeSerie[,i])) else timeSerie[,i]
 
-  return(timeSerie)
+  	return(timeSerie)
   }
 
 
