@@ -1,3 +1,6 @@
+## !!! DEPRECATED !!!###
+## REPLACED BY getDataSet.R
+
 ## Author: Emmanuel Blondel
 ## Contact: emmanuel.blondel1 at gmail.com
 ## Created on 23/04/2011
