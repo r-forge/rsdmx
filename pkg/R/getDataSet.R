@@ -1,7 +1,7 @@
 ## Author: Emmanuel Blondel
 ## Contact: emmanuel.blondel1 at gmail.com
 ## Created on 23/04/2011
-## Last Update: 04/05/2012
+## Last Update: 05/05/2012
 ## Type: Function
 ## Name: getDataSet.R
 ## Description: A R function to retrieve a SDMX dataset in a R dataframe
@@ -53,20 +53,35 @@ getDataSet<-function(sdmx){
 	# adding obsValues
 	obsValuesXML<-getNodeSet(sdmx,paste("//",prefix2,":ObsValue[@value]",sep=""))
 	obsValue<-sapply(obsValuesXML, function(x) {xmlGetAttr(x,"value")})
-	
 	dataset<-cbind(dataset, obsValue)
+	
+	# workaround to ensure that numeric variables would not be considered as factors (having a obsValue variable as factor prevent from performing operations)
+	checkMode<-function(x){
+		options(warn=-1)
+		check<-as.numeric(as.character(x))
+		options(warn=0)
+		if(is.na(check)) {
+			return("factor")
+		} else {
+			return("numeric")
+		}
+	}
+  	modes<-sapply(dataset[1,], checkMode)
+  	for(i in 1:ncol(dataset)) dataset[,i]<-if(modes[i]=="numeric") as.numeric(as.character(dataset[,i])) else dataset[,i]
+	
+	# output
 	return(dataset)
 }
 
 #### Methods
 setAs("RSDMXCodeLists", "data.frame", function(from) stop("Only datasets objects can be converted into data.frame\n"))
-setAs("RSDMXDataSet", "data.frame", function(from) getSerie(from))
+setAs("RSDMXDataSet", "data.frame", function(from) getDataSet(from))
 
 as.data.frame.RSDMXCodeLists <-function(x,..){
   stop("Only datasets objects can be converted into data.frame\n")
 }
 
 as.data.frame.RSDMXDataSet<-function(x,..){
-  getSerie(x)
+  getDataSet(x)
 }
 
