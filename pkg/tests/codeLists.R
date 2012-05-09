@@ -36,7 +36,7 @@ Domains.cd.es
 
 
 #Last Test for getCodeList
-aqua<-read.sdmx(url="http://www.fao.org/figis/sdmx/registry/DataStructure/AQUACULTURE_DSD/FAO/0.1")
+aqua<-read.sdmx(url="http://www.fao.org/figis/sdmx/registry/datastructure/FAO/AQUACULTURE_DATASTRUCTURE/0.1")
 getCodeListNames(aqua)
 getCodeList(aqua,c("CL_FAO_MAJOR_AREA","CL_UNIT","CL_ENVIRONMENT"))
 getCodeList(aqua,c("CL_FAO_MAJOR_AREA","CL_UNIT","CL_ENVIRONMENT","CL_SDMX"))
