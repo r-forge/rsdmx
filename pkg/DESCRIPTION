@@ -1,9 +1,8 @@
 Package: RSDMX
-Type: Package
 Title: Package to import SDMX data
 Version: 0.01
 Date: 2011-04-19
-Author: Matthieu Stigler and Emmanuel Blondel
+Author: Matthieu Stigler, Emmanuel Blondel
 Maintainer: Matthieu.Stigler <Matthieu.Stigler@fao.org>
 Description: RSDMX is a project under investigation to allow R users to import SDMX data into R. The R package seeks to import SDMX data, reads its components and convert the sdmx data to more usual R classes such as data.frame, ts.
 License: GPL (>= 2)
