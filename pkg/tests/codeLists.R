@@ -30,8 +30,8 @@ Domains<-read.sdmx(url="http://www.devinfo.info/Registry/UNSDMDG/download.aspx?i
 Domains.cd <- getCodeList(Domains)
 Domains.cd
 
-a<-getCodeList(Domains, lang="ES")
-Domains.cd.es <- getCodeList(Domains, lang="ES")
+a<-getCodeList(Domains, lang="es")
+Domains.cd.es <- getCodeList(Domains, lang="es")
 Domains.cd.es
 
 
