@@ -26,10 +26,19 @@ getSerie<-function(sdmx){
   	obsTime<-unique(sapply(cObsTime,function(x) {xmlValue(x)}))
   	L<-length(obsTime)
   
-  	#conceptValues (the dataframe is replicated according to the number of years)
+  	#==================
+	
+	#conceptValues (the dataframe is replicated according to the number of years) DOES NOT WORK WELL
+	conceptValues<-as.data.frame(sapply(conceptList, function(x){
+						cConceptValue<-getNodeSet(sdmx, sprintf(paste("//",prefix2,":SeriesKey/",prefix2,":Value[@concept='%s']",sep=""),x))
+						conceptValue<-sapply(cConceptValue,function(i) {xmlGetAttr(i,"value")})
+					}))
+	
+	
+	#conceptValues (the dataframe is replicated according to the number of years) DOES NOT WORK WELL
   	conceptValues<-as.data.frame(sapply(conceptList, function(x){
     	cConceptValue<-getNodeSet(sdmx, sprintf(paste("//",prefix2,":SeriesKey/",prefix2,":Value[@concept='%s']",sep=""),x))
-     	conceptValue<-sapply(cConceptValue,function(x) {rep(xmlGetAttr(x,"value"),L)})
+     	conceptValue<-sapply(cConceptValue,function(i) {rep(xmlGetAttr(i,"value"),L)})
     }))
 
   	#obsValues

@@ -1,23 +1,18 @@
 import(XML)
 
 
-export(getCodeListNames, getCodeList, getSerie, getDataSet, getPriMes, getAttr,getDimOld, getTimeDim, read.sdmx, as.spdf)
-
+export(read.sdmx, getCodeListNames, getCodeList, getSerie, getDataSet, getPriMes, getAttr,getDimOld, getTimeDim)
 
 #exportClasses("RSDMX","XMLInternalDocument", "XMLAbstractDocument")
 #exportClasses("RSDMXCodeLists","RSDMX","XMLInternalDocument", "XMLAbstractDocument")
 #exportClasses("RSDMXDataSet","RSDMX","XMLInternalDocument", "XMLAbstractDocument")
 exportClasses("RSDMXDataSet","RSDMXCodeLists","RSDMX")#,"XMLInternalDocument", "XMLAbstractDocument")
 
-
 export(getDim)
 exportMethods(getDim)
 
-
 export(getKeyFamily)
 exportMethods(getKeyFamily)
-
-
 
 S3method(print,RSDMX)
 S3method(summary,RSDMXCodeLists)
