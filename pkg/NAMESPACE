@@ -1,7 +1,7 @@
 import(XML)
 
 
-export(read.sdmx, getCodeListNames, getCodeList, getSerie, getDataSet, getPriMes, getAttr,getDimOld, getTimeDim)
+export(read.sdmx, getCodeListNames, getCodeList, getDataSet, getPriMes, getAttr,getDimOld, getTimeDim)
 
 #exportClasses("RSDMX","XMLInternalDocument", "XMLAbstractDocument")
 #exportClasses("RSDMXCodeLists","RSDMX","XMLInternalDocument", "XMLAbstractDocument")
